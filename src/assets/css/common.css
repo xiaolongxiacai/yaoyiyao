@@ -1,0 +1,459 @@
+a {
+  color: #333;
+}
+
+.inco:after {
+  content: "inco";
+}
+
+.c_clear:after {
+  content: "";
+  display: block;
+  width: 0;
+  height: 0;
+  overflow: hidden;
+  clear: both;
+}
+
+.tov1 {
+  word-break: break-all;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 1;
+  overflow: hidden;
+}
+
+body {
+  background: #f3f3f3;
+}
+
+header {
+  height: 53px;
+  line-height: 53px;
+  border-bottom: 1px solid #e9e7e6;
+  padding: 0 16px;
+}
+
+header h1 {
+  font-size: 18px;
+  font-weight: bold;
+  color: #000000;
+}
+
+.main .input_area {
+  background: #fff;
+  padding: 14px 17px;
+  border-bottom: 1px solid #e9e7e6;
+}
+
+.input_area i {
+  font-size: 30px;
+  color: #999;
+}
+
+.main .input_area textarea {
+  width: 100%;
+  border: none;
+  resize: none;
+  font-size: 14px;
+  height: 65px;
+  margin-bottom: 14px;
+}
+
+.main .btn_box {
+  padding: 20px 15px;
+}
+
+.main .btn_box button {
+  height: 44px;
+  background: #04be02;
+  display: block;
+  width: 100%;
+  padding: 0;
+  border: 0;
+  line-height: 44px;
+  color: #fff;
+  border-radius: 5px;
+  font-size: 18px;
+}
+
+.main .title {
+  height: 54px;
+  position: relative;
+  padding: 0 15px;
+  text-align: center;
+}
+
+.main .title span {
+  line-height: 50px;
+  padding: 0 7px;
+  background: #f7f7f7;;
+  color: #757575;
+  margin: 0 auto;
+  position: relative;
+  z-index: 2;
+  font-size: 16px;
+}
+
+.main .title:before {
+  content: "";
+  display: block;
+  height: 0;
+  border-bottom: 1px dotted rgba(189, 184, 184, 0.38);
+  position: absolute;
+  top: 47%;
+  left: 15px;
+  right: 15px;
+}
+
+.main .return {
+  padding: 15px;
+  margin-top: 30px;
+}
+
+.main .return dt {
+  width: 37px;
+  height: 37px;
+  border-radius: 3px;
+  float: left;
+}
+
+.main .return dt img {
+  width: 100%;
+}
+
+a {
+  text-decoration: none;
+}
+
+.main .return dd .dd_box {
+  margin-left: 45px;
+  position: relative;
+}
+
+.main .return dd .dd_box h1 {
+  line-height: 22px;
+  font-size: 16px;
+  color: #565656;
+}
+
+.main .return dd .dd_box .gy-title:before {
+  content: "";
+  display: inline-block;
+  width: 4px;
+  height: 16px;
+  margin-right: 6px;
+  background: #00BD00;
+  position: relative;
+  top: 3px;
+}
+
+.main .return dd .dd_box p {
+  line-height: 25px;
+  font-size: 14px;
+  color: #2a2a2a;
+  word-wrap: break-word;
+}
+
+.main .return dd .dd_box div {
+  line-height: 25px;
+  font-size: 14px;
+}
+
+.main .return dd .dd_box div span {
+  color: #bbbbbb;
+  margin-right: 12px;
+}
+
+.main .return dd .dd_box div a {
+  color: #3c6393;
+}
+
+/*# sourceMappingURL=index.css.map */
+
+/* CSS reset */
+
+html,
+body,
+div,
+dl,
+dt,
+dd,
+ul,
+ol,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+pre,
+form,
+fieldset,
+input,
+textarea,
+p,
+blockquote,
+th,
+td {
+  margin: 0;
+  padding: 0;
+}
+
+*,
+*:after,
+*:before {
+  -webkit-box-sizing: border-box;
+}
+
+body {
+  font-family: "Helvetica Neue", Helvetica, STHeiTi, sans-serif;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+fieldset,
+img {
+  border: 0;
+}
+
+address,
+caption,
+cite,
+code,
+dfn,
+th,
+var {
+  font-style: normal;
+  font-weight: normal;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+caption,
+th {
+  text-align: left;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: 100%;
+  font-weight: normal;
+}
+
+abbr,
+acronym {
+  border: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* 解决兼容而加的样式 */
+
+a,
+img {
+  -webkit-touch-callout: none;
+  /*禁止长按链接与图片弹出菜单*/
+}
+
+html,
+body {
+  -webkit-user-select: none;
+  /*禁止选中文本*/
+  user-select: none;
+}
+
+a,
+button,
+input,
+optgroup,
+select,
+textarea {
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  /*去掉a、input和button点击时的蓝色外边框和灰色半透明背景*/
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #fff;
+}
+
+.gy-head {
+  max-width: 740px;
+  margin: 0 auto;
+}
+
+.gy-top {
+  padding: 40px 30px 30px;
+}
+
+.gy-next {
+  border-bottom: 1px solid #e7e7eb;
+  text-align: left;
+  line-height: 1.4;
+  font-weight: 400;
+  font-size: 24px;
+  padding-bottom: 10px;
+}
+
+.gy-yc {
+  float: left;
+  border: 1px solid #999;
+  border-radius: 20px;
+  color: #999;
+  padding: 0 10px;
+  margin-right: 10px;
+  margin-top: -2px;
+}
+
+.gy-date {
+  float: left;
+  color: #8c8c8c;
+}
+
+.gy-ds {
+  float: left;
+  margin: 0 8px;
+  color: #8c8c8c;
+}
+
+.gy-href {
+  color: #64a3f3;
+  text-decoration: none;
+  float: left;
+}
+
+.gy-paragraph p {
+  text-indent: 2em;
+  font-size: 20px;
+  font-family: 宋体;
+  line-height: 2em;
+}
+
+.gy-img {
+  text-align: center;
+  display: block;
+  margin: 5px 0;
+}
+
+.gy-img img {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.gy-bo {
+  margin-top: 50px;
+  border-bottom: 1px solid #f5eeee;
+  padding-bottom: 20px;
+}
+
+.gy-read {
+  float: left;
+  font-size: 14px;
+  color: #64a3f3;
+  margin-right: 20px;
+}
+
+.gy-yd {
+  float: left;
+  color: #999;
+  font-size: 14px
+}
+
+.gy-sl {
+  float: left;
+  margin-left: 20px;
+}
+
+.gy-sl i {
+  font-size: 10px;
+  color: #64a3f3;
+}
+
+.gy-sl span {
+  color: #999;
+}
+
+.gy-ts {
+  float: right;
+  font-size: 14px;
+  color: #999;
+}
+
+.gy-ly a {
+  float: right;
+  color: #64a3f3 !important;
+  font-size: 16px;
+}
+
+.gy-ly i {
+  font-size: 14px;
+  color: #5485c3;
+}
+
+.gy-ttop {
+  font-size: 16px;
+  margin-top: 10px;
+  line-height: 20px;
+}
+
+.gy-clear {
+  clear: both;
+}
+
+.do-pos {
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.do-pos i {
+  font-size: 10px;
+  color: #64a3f3;
+}
+
+@media (max-width: 480px) {
+  .gy-top {
+    padding: 20px 10px 0px 10px;
+  }
+
+  .gy-next {
+    border: none;
+  }
+
+  .gy-paragraph p {
+    font-family: "微软雅黑";
+    font-size: 14px;
+  }
+
+  .gy-ly {
+    margin-bottom: 0px;
+    padding-right: 10px;
+  }
+
+  .gy-new {
+    width: 100%;
+    background: #f7f7f7;
+    padding: 20px 0 20px 0;
+  }
+}
+
+@import "iconfont.css";
